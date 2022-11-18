@@ -55,22 +55,22 @@ class Main {
     }
     
     // write a while loop that prints the elements of the array you used in the previous exercise. Take care to avoid infinite looping!
-    // int counter = 0;
-    // while(counter < 1000) {
-    //   System.out.println(numbers[counter]);
-    //   counter++;
-    // }
+    int counter = 0;
+    while(counter < 1000) {
+      System.out.println(numbers[counter]);
+      counter++;
+    }
     //write a do-while loop that does the same.
-    // int counter2 = 0;
-    // do {
-    //   System.out.println(numbers[counter2]);
-    //   counter2++;
-    // } while(counter2 < 1000);
+    int counter2 = 0;
+    do {
+      System.out.println(numbers[counter2]);
+      counter2++;
+    } while(counter2 < 1000);
 
     // write an enhanced for loop that iterates over this array and prints the result of that number modulus(%) 3
-  // for(int num : numbers) {
-  //   System.out.println(num % 3);
-  // }
+  for(int num : numbers) {
+    System.out.println(num % 3);
+  }
 
     /*
       Some activities for String methods
